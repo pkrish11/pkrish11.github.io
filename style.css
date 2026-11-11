@@ -279,3 +279,17 @@ footer .footer-links a:hover {
   color: var(--navy);
   margin: 18px 0 4px;
 }
+
+/* ---------- Education / coursework (About Me page) ---------- */
+.edu h3 {
+  margin: 16px 0 0;
+}
+
+.edu p {
+  margin: 2px 0 6px;
+  color: #555;
+}
+
+.coursework {
+  columns: 2;
+}
