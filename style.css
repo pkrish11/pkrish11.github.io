@@ -253,3 +253,24 @@ footer .footer-links a:hover {
   height: 1100px;
   border: 1px solid var(--light-line);
 }
+
+/* ---------- Current / Previous headers (Projects page) ---------- */
+.section-header {
+  font-family: "Oswald", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  border-bottom: 3px solid var(--navy);
+  padding-bottom: 6px;
+  margin-top: 40px;
+}
+
+.project-meta {
+  color: #666;
+  font-style: italic;
+  margin-top: -8px;
+}
+
+.project img {
+  object-fit: contain;
+  align-self: flex-start;
+}

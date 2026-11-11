@@ -21,41 +21,65 @@
 
   <main class="content">
     <h1 class="page-title">Projects &amp; Research</h1>
-    <p>Here are some of the projects and research I have worked on.</p>
+
+    <h2 class="section-header">Current</h2>
 
     <div class="project">
-      <img src="images/project-placeholder.svg" alt="Placeholder image for Project Title One">
+      <img src="images/project-placeholder.svg" alt="Placeholder image for the autoclave PCB project">
       <div>
-        <h3>Project Title One</h3>
+        <h3>Custom PCB for an Autoclave System</h3>
+        <p class="project-meta">Undergraduate Researcher, Plasma and Dielectrics Lab, Georgia Tech &middot; August 2026 &ndash; Present</p>
         <p>
-          Short description of the project or research. What was the goal, what did you
-          build or study, and what tools or skills did you use?
+          I am designing and prototyping a custom PCB in KiCad with sensor and relay interfaces
+          to monitor and control temperature and pressure in an autoclave in real time. A Teensy
+          microcontroller processes the sensor data, drives the relay switching logic, and sends
+          data wirelessly for monitoring. Tighter temperature and pressure control helps cure the
+          epoxy insulation shell of a coaxial transformer being built for a modular power
+          converter system.
         </p>
-        <p><a href="#">Link to project (optional)</a></p>
+        <p class="skills"><strong>Skills:</strong> KiCad, PCB design, embedded programming (Teensy), sensors and relays</p>
+      </div>
+    </div>
+
+    <h2 class="section-header">Previous</h2>
+
+    <div class="project">
+      <img src="images/reu-encoder-decoder.png" alt="Diagram of a linear encoder-decoder: input x, encoder E, latent z, decoder D and b, output y">
+      <div>
+        <h3>Optimal Linear Baseline Models for Scientific Machine Learning</h3>
+        <p class="project-meta">NSF REU, Department of Mathematics, Emory University &middot; Summer 2025</p>
+        <p>
+          In Summer 2025, I took part in an NSF REU (National Science Foundation Research
+          Experience for Undergraduates) in Model Aware and Data Driven Inference at Emory
+          University's Department of Mathematics. Our group built a theoretical framework for
+          optimal linear encoder-decoder models, using Bayes risk minimization to derive
+          closed-form, rank-constrained solutions for inverse recovery, forward simulation, and
+          autoencoding tasks. We then tested these linear models against trained deep neural
+          networks on several datasets, including MNIST images, nonlinear fluid simulations from
+          the shallow water equations, and Fama-French financial factor data, and showed that they
+          can match or outperform the learned networks. We completed this work within the 8-week
+          program, and it was published in <em>Foundations of Data Science</em>. Along the way, I
+          gained a strong understanding of linear algebra in machine learning and scientific
+          computing, along with research skills like presenting and communicating results.
+        </p>
+        <p class="skills"><strong>Skills:</strong> LaTeX, Python, PyTorch, linear algebra</p>
+        <p><a href="https://www.aimsciences.org/article/doi/10.3934/fods.2026012" target="_blank">Read the publication</a></p>
       </div>
     </div>
 
     <div class="project">
-      <img src="images/project-placeholder.svg" alt="Placeholder image for Project Title Two">
+      <img src="images/project-placeholder.svg" alt="Placeholder image for the wildfire PDE project">
       <div>
-        <h3>Project Title Two</h3>
+        <h3>Computational PDEs and Optimization for Wildfire Spread</h3>
+        <p class="project-meta">Undergraduate Honors Thesis, Applied Math, Emory University &middot; August 2025 &ndash; May 2026</p>
         <p>
-          Short description of the project or research. What was the goal, what did you
-          build or study, and what tools or skills did you use?
+          For my honors thesis, I wrote numerical models in Python that simulate wildfire spread
+          with nonlinear diffusion-advection-reaction partial differential equations. I then used
+          Bayesian optimization to find the best intervention strategies, cutting expected wildfire
+          damage by 50% across different environmental conditions. I defended the thesis and
+          graduated with Highest Honors.
         </p>
-        <p><a href="#">Link to project (optional)</a></p>
-      </div>
-    </div>
-
-    <div class="project">
-      <img src="images/project-placeholder.svg" alt="Placeholder image for Research Project Title">
-      <div>
-        <h3>Research Project Title</h3>
-        <p>
-          Short description of the project or research. What was the goal, what did you
-          build or study, and what tools or skills did you use?
-        </p>
-        <p><a href="#">Link to project (optional)</a></p>
+        <p class="skills"><strong>Skills:</strong> Python, numerical PDEs, Bayesian optimization</p>
       </div>
     </div>
   </main>
