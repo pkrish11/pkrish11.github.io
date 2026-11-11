@@ -1,0 +1,183 @@
+/* ---------- Basics ---------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #222;
+  background: #ffffff;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+a {
+  color: #1e3a5f;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+}
+
+/* ---------- Nav bar (top right links) ---------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar .site-name {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #222;
+  text-decoration: none;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 28px;
+}
+
+.navbar ul a {
+  color: #444;
+  text-decoration: none;
+}
+
+.navbar ul a:hover,
+.navbar ul a.active {
+  color: #1e3a5f;
+  border-bottom: 2px solid #1e3a5f;
+}
+
+/* ---------- Hero banner (Intro page) ---------- */
+.hero {
+  background-image: url("images/hero.svg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 140px 20px;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin: 0 0 10px;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+/* ---------- Page content ---------- */
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.page-title {
+  font-size: 2.4rem;
+  margin-top: 0;
+}
+
+.about-layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.about-layout img {
+  width: 280px;
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+/* ---------- Project cards ---------- */
+.project {
+  display: flex;
+  gap: 24px;
+  padding: 24px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.project:last-child {
+  border-bottom: none;
+}
+
+.project img {
+  width: 240px;
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+/* ---------- Footer bar ---------- */
+footer {
+  background: #1e3a5f;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+footer .footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+footer .footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  padding: 8px 18px;
+}
+
+footer .footer-links a:hover {
+  background: #ffffff;
+  color: #1e3a5f;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* ---------- Small screens ---------- */
+@media (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px;
+  }
+
+  .hero h1 {
+    font-size: 2.6rem;
+  }
+
+  .about-layout,
+  .project {
+    flex-direction: column;
+  }
+}
