@@ -274,3 +274,8 @@ footer .footer-links a:hover {
   object-fit: contain;
   align-self: flex-start;
 }
+
+.project h4 {
+  color: var(--navy);
+  margin: 18px 0 4px;
+}

@@ -41,6 +41,35 @@
       </div>
     </div>
 
+    <div class="project">
+      <img src="images/project-placeholder.svg" alt="Placeholder image for the wildfire PDE project">
+      <div>
+        <h3>Computational PDEs and Optimization for Wildfire Control</h3>
+        <p class="project-meta">Applied Math, Emory University &middot; August 2025 &ndash; Present</p>
+        <h4>Honors thesis (August 2025 &ndash; May 2026)</h4>
+        <p>
+          For my honors thesis in applied math at Emory University, I studied how wildfires
+          spread using computational partial differential equations (PDEs). I built a numerical
+          solver for a coupled, nonlinear advection-diffusion-reaction model, which captures how
+          fire moves with the wind, spreads outward, and burns through fuel across a 2D landscape.
+          I solved the model using finite element methods (FEM) and finite difference (FD)
+          methods. I then added water and fire-retardant drops to the simulation as a way of
+          fighting the fire, and used Bayesian optimization to choose when and where to make
+          those drops to keep damage as low as possible. I presented the results in my thesis and
+          defended it before a faculty committee, graduating with Highest Honors.
+        </p>
+        <h4>Ongoing extension</h4>
+        <p>
+          I am now extending this work by building the firefighting actions directly into the PDE
+          model itself, instead of treating them as separate events. To optimize these actions, I
+          am using an adjoint-based approach: solving an extra set of "adjoint" equations gives
+          the gradient of total fire damage with respect to every control decision at once,
+          which makes it far more efficient to find the best strategy.
+        </p>
+        <p class="skills"><strong>Skills:</strong> Python, numerical PDEs, FEM, finite differences, Bayesian optimization, adjoint methods, optimal control</p>
+      </div>
+    </div>
+
     <h2 class="section-header">Previous</h2>
 
     <div class="project">
@@ -64,44 +93,6 @@
         </p>
         <p class="skills"><strong>Skills:</strong> LaTeX, Python, PyTorch, linear algebra</p>
         <p><a href="https://www.aimsciences.org/article/doi/10.3934/fods.2026012" target="_blank">Read the publication</a></p>
-      </div>
-    </div>
-
-    <div class="project">
-      <img src="images/project-placeholder.svg" alt="Placeholder image for the wildfire PDE project">
-      <div>
-        <h3>Computational PDEs and Optimization for Wildfire Spread</h3>
-        <p class="project-meta">Undergraduate Honors Thesis, Applied Math, Emory University &middot; August 2025 &ndash; May 2026</p>
-        <p>
-          For my honors thesis, I wrote numerical models in Python that simulate wildfire spread
-          with nonlinear diffusion-advection-reaction partial differential equations. I then used
-          Bayesian optimization to find the best intervention strategies, cutting expected wildfire
-          damage by 50% across different environmental conditions. I defended the thesis and
-          graduated with Highest Honors.
-        </p>
-        <p class="skills"><strong>Skills:</strong> Python, numerical PDEs, Bayesian optimization</p>
-      </div>
-    </div>
-    <div class="project">
-      <img src="images/ising.jpg" alt="Snapshot of a 2D Ising model spin lattice near the critical temperature">
-      <div>
-        <h3>NeuralIsing.jl</h3>
-        <p class="project-meta">Course Final Project</p>
-        <p>
-          NeuralIsing.jl is a modular Julia framework for speeding up MCMC (Markov chain Monte
-          Carlo) sampling of the 2D Ising model using CNNs (convolutional neural networks), built
-          as a final project for a class. The standard single-spin-flip method becomes slow at
-          producing independent samples near the critical temperature and for large systems. My
-          framework instead uses a CNN to propose bulk updates to whole sub-lattices while still
-          satisfying detailed balance, which speeds up the generation of independent samples, and
-          the CNN-based simulations reproduced the correct equilibrium distributions. The framework
-          handles the full workflow: generating training data with single-spin-flip simulations,
-          extracting independent samples, defining and training custom CNN architectures (using
-          Flux.jl), and testing the trained models against the single-spin-flip baseline.
-        </p>
-        <p class="skills"><strong>Skills:</strong> Julia, scientific computing, machine learning, Monte Carlo methods, computational physics</p>
-        <p><a href="https://github.com/pkrish11/NeuralIsing.jl" target="_blank">View on GitHub</a></p>
-        <p class="photo-credit">Image: <a href="https://commons.wikimedia.org/wiki/File:Ising_Criticality2.gif" target="_blank">Ising Criticality</a> by Damian Owls, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a> (cropped still frame).</p>
       </div>
     </div>
 
