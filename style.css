@@ -310,3 +310,7 @@ footer .footer-links a:hover {
   border-top: 3px solid var(--navy);
   margin: 40px 0 0;
 }
+
+.publications li {
+  margin-bottom: 10px;
+}
