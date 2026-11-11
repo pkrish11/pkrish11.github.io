@@ -84,7 +84,7 @@ h1, h2, h3 {
   position: relative;
   /* dark tint over the picture so the white text is readable */
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url("images/hero.svg");
+    url("images/hero.jpg");
   background-size: cover;
   background-position: center;
   color: #ffffff;
@@ -216,4 +216,15 @@ footer .footer-links a:hover {
   .project {
     flex-direction: column;
   }
+}
+
+/* Small credit line for the banner photo (required by its license) */
+.photo-credit {
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 30px;
+}
+
+.photo-credit a {
+  color: #777;
 }
