@@ -83,6 +83,29 @@
       </div>
     </div>
     <div class="project">
+      <img src="images/ising.jpg" alt="Snapshot of a 2D Ising model spin lattice near the critical temperature">
+      <div>
+        <h3>NeuralIsing.jl</h3>
+        <p class="project-meta">Course Final Project</p>
+        <p>
+          NeuralIsing.jl is a modular Julia framework for speeding up MCMC (Markov chain Monte
+          Carlo) sampling of the 2D Ising model using CNNs (convolutional neural networks), built
+          as a final project for a class. The standard single-spin-flip method becomes slow at
+          producing independent samples near the critical temperature and for large systems. My
+          framework instead uses a CNN to propose bulk updates to whole sub-lattices while still
+          satisfying detailed balance, which speeds up the generation of independent samples, and
+          the CNN-based simulations reproduced the correct equilibrium distributions. The framework
+          handles the full workflow: generating training data with single-spin-flip simulations,
+          extracting independent samples, defining and training custom CNN architectures (using
+          Flux.jl), and testing the trained models against the single-spin-flip baseline.
+        </p>
+        <p class="skills"><strong>Skills:</strong> Julia, scientific computing, machine learning, Monte Carlo methods, computational physics</p>
+        <p><a href="https://github.com/pkrish11/NeuralIsing.jl" target="_blank">View on GitHub</a></p>
+        <p class="photo-credit">Image: <a href="https://commons.wikimedia.org/wiki/File:Ising_Criticality2.gif" target="_blank">Ising Criticality</a> by Damian Owls, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a> (cropped still frame).</p>
+      </div>
+    </div>
+
+    <div class="project">
       <img src="images/project-placeholder.svg" alt="Placeholder image for the predictive maintenance project">
       <div>
         <h3>Exploring ML for Predictive Maintenance Using Imbalance Correction Techniques and SHAP</h3>
