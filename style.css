@@ -304,3 +304,9 @@ footer .footer-links a:hover {
   border-radius: 3px;
   margin-left: 6px;
 }
+
+.section-divider {
+  border: none;
+  border-top: 3px solid var(--navy);
+  margin: 40px 0 0;
+}
