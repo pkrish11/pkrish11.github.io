@@ -4,28 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="navbar">
-    <a class="site-name" href="index.html">Your Name</a>
-    <ul>
-      <li><a href="index.html" class="active">Intro</a></li>
-      <li><a href="about.html">About Me</a></li>
-      <li><a href="projects.html">Projects</a></li>
-    </ul>
-  </nav>
 
   <main>
     <section class="hero">
+      <nav class="navbar overlay">
+        <a class="site-name" href="index.html">Your Name</a>
+        <ul>
+          <li><a href="index.html" class="active">Intro</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+
       <h1>Your Name</h1>
-      <p>Electrical &amp; Computer Engineering Student</p>
+      <div class="underline"></div>
     </section>
 
     <section class="content">
-      <h2>Hello, welcome to my website!</h2>
       <p>
-        This is placeholder intro text. Write a few sentences here about who you are,
+        Welcome! This is placeholder intro text. Write a few sentences here about who you are,
         what you study, and what you are interested in. For example: I am a student
         studying Electrical and Computer Engineering at [University]. I am interested in
         [topic], [topic], and [topic].
@@ -38,13 +41,13 @@
   </main>
 
   <footer>
+    <div class="footer-line"></div>
     <div class="footer-links">
-      <a href="mailto:your.email@example.com">Email</a>
+      <a class="email" href="mailto:your.email@example.com">your.email@example.com</a>
       <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">Scholar</a>
       <a href="https://github.com/your-username" target="_blank">GitHub</a>
-      <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">Google Scholar</a>
     </div>
-    <p>&copy; 2026 Your Name</p>
   </footer>
 </body>
 </html>
