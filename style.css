@@ -293,3 +293,14 @@ footer .footer-links a:hover {
 .coursework {
   columns: 2;
 }
+
+.badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  vertical-align: middle;
+  background: #f0c94d;
+  color: #222;
+  padding: 2px 8px;
+  border-radius: 3px;
+  margin-left: 6px;
+}
